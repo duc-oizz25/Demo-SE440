@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class CarController : MonoBehaviour
 {
     public enum WheelType
@@ -23,6 +24,7 @@ public class CarController : MonoBehaviour
     [SerializeField] private float speed = 50f;
     [SerializeField] private float steerSpeed = 30f;
     [SerializeField] private float maxSpeedrAngle = 30f;
+    [SerializeField] private Vector3 centerOfMass;
 
     private float _moveInput;
     private float _steerInput;
@@ -30,7 +32,8 @@ public class CarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        var rb=GetComponent<Rigidbody>();
+        rb.centerOfMass = centerOfMass;
     }
 
     // Update is called once per frame
@@ -81,7 +84,7 @@ public class CarController : MonoBehaviour
         {
             foreach(var wheel in wheels)
             {
-                wheel.collider.brakeTorque = 1000;
+                wheel.collider.brakeTorque = 2000;
             }
         }
         else
