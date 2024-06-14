@@ -10,7 +10,7 @@ namespace Game
         [SerializeField] private GameObject objectSpawn;
 
         private GameObject _spawned;
-        protected virtual bool CustomSpawnGameObject(Vector3 spawnPoint, Vector3 spawnNormal)
+        protected override bool CustomSpawnGameObject(Vector3 spawnPoint, Vector3 spawnNormal)
         {
             if(_spawned != null)
             {

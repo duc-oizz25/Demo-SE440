@@ -2399,7 +2399,7 @@ MonoBehaviour:
   m_ApplyRandomAngleAtSpawn: 1
   m_SpawnAngleRange: 45
   m_SpawnAsChildren: 0
-  objectSpawn: {fileID: 2683126175790518071, guid: d7efbcab7e630fb4f9a01349288209a7,
+  objectSpawn: {fileID: 642287924342879162, guid: 79d0ca8b77e301442afdb49f102e8aed,
     type: 3}
 --- !u!1 &791333383
 GameObject:
