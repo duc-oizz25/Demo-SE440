@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.25.0/Hello Cardboard/Scenes/HelloCardboard.unity
+    guid: e85a45c7eed7f8349bd3fd84269cd377
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4d1b6560720985c44a77809ca17c589f, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8d9c1c05d4c6ea4c8b7a8d7f5a7d868, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 46a240a7b4b85b84c974e2ca3b1f2057, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bf75965bd1a2feb4dbf4c040a8761bc3, type: 2}
