@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deActiveColor: {r: 1, g: 0, b: 0, a: 0}
   activeColor: {r: 0, g: 1, b: 0.98171353, a: 0}
-  gameObjectRenderer: {fileID: 0}
+  gameObjectRenderer: {fileID: 1933429769}
 --- !u!1 &907292807
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,6 +2121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd68f027e715c44aa8d097000d4cccfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!23 &1933429769 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2847525949359012301, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
+  m_PrefabInstance: {fileID: 1717218368}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1964053887
 GameObject:
   m_ObjectHideFlags: 0
